@@ -1,0 +1,55 @@
+[{
+    "id": 1,
+    "text": "系统功能",
+    "children": [
+		{
+			"id": 11,
+			"text": "提交需求",
+			"attributes": {"url": "/Forms/RequirementsSummary"}
+		}]
+},{
+    "id": 2,
+    "text": "腾讯企业门户",
+	"attributes": {"url": "http://www.oa.com/default.aspx"},
+    "children": [
+		{
+			"id": 21,
+			"text": "行政平台",
+			"attributes": {"url": "http://adm.oa.com/default.aspx"}
+		},
+		{
+			"id": 22,
+			"text": "财经服务平台",
+			"attributes": {"url": "http://fm.oa.com/fm_new/default.aspx"}
+		},
+		{
+			"id": 23,
+			"text": "人力资源平台",
+			"attributes": {"url": "http://hr.oa.com/hrportal/default.aspx"}
+		},
+		{
+			"id": 24,
+			"text": "IT服务门户",
+			"attributes": {"url": "http://8000.oa.com/"}
+		},
+		{
+			"id": 25,
+			"text": "福利平台",
+			"attributes": {"url": "http://fuli.oa.com/welfare/SBCMyWelfare/default.aspx"}
+		},
+		{
+			"id": 26,
+			"text": "腾讯学院",
+			"attributes": {"url": "http://learn.oa.com/qlearning7/default.htm"}
+		},
+		{
+			"id": 27,
+			"text": "KM平台",
+			"attributes": {"url": "http://km.oa.com/"}
+		},
+		{
+			"id": 28,
+			"text": "BBS社区",
+			"attributes": {"url": "http://bbs.oa.com/"}
+		}]
+}]

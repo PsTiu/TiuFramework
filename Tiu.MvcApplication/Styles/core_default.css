@@ -1,0 +1,59 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    font-size:12px;
+}
+
+a
+{
+    color:Blue;
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+
+.error
+{
+    color:Red;
+}
+
+.loginfield
+{
+    position:absolute;
+    left:50px;
+    top:40px;    
+}
+.loginfield thead tr th
+{
+    text-align:center;
+    font-size:24px;
+}
+.loginfield tbody tr th
+{
+    text-align:right;
+}
+
+body.loginpage
+{
+    background-color:#ddd;
+}
+.sysname
+{
+    color:#0E2D5F;
+    font-size:28px;
+    font-family:黑体;
+    display:inline-block;
+    position:absolute;
+    top:12px; left:12px;
+}
+.copyright
+{
+    color:#0E2D5F;
+}
+navigateTree.a
+{
+    
+}
