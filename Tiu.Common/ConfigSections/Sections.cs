@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+// config中自定义的section对应的类定义在这里
+
 namespace Tiu.Common.ConfigSections
 {
     /// <summary>

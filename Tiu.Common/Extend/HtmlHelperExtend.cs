@@ -57,8 +57,9 @@ namespace System.Web.Mvc
         {
             var re = ImportCss(helper, urlHelper
                 , "~/Styles/core_default.css"
+                , "~/Scripts/jquery-easyui/themes/" + theme + "/easyui.css"
                 , "~/Scripts/jquery-easyui/themes/icon.css"
-                , "~/Scripts/jquery-easyui/themes/" + theme + "/easyui.css");
+                );
             re += ImportJs(helper, urlHelper
                 , "~/Scripts/jquery-easyui/jquery-min.js"
                 , "~/Scripts/jquery-easyui/jquery.easyui.min.js"

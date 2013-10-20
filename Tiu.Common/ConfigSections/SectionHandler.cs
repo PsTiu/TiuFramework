@@ -6,8 +6,18 @@ using System.Configuration;
 
 namespace Tiu.Common.ConfigSections
 {
+    /// <summary>
+    /// 用于读取config文件中自定义section的类
+    /// </summary>
     public class SectionHandler : IConfigurationSectionHandler
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="parent"></param>
+        /// <param name="configContext"></param>
+        /// <param name="section"></param>
+        /// <returns></returns>
         public object Create(object parent, object configContext, System.Xml.XmlNode section)
         {
             var obj = new object();

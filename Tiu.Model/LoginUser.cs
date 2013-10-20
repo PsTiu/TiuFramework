@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Tiu.Model
 {
     /// <summary>
-    /// 登录用户
+    /// 登录用户基础信息
     /// </summary>
-    public class LoginUser
+    public class LoginUserBasic
     {
         /// <summary>
         /// 帐号
@@ -18,5 +17,15 @@ namespace Tiu.Model
         /// 密码
         /// </summary>
         public string Pwd { get; set; }
+    }
+
+    /// <summary>
+    /// 登录用户详细信息
+    /// </summary>
+    public class LoginUserInfo:LoginUserBasic
+    {
+        public string UserId { get; set; }
+
+        public string UserFullName { get; set; }
     }
 }

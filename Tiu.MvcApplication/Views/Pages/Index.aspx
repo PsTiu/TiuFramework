@@ -27,7 +27,7 @@
     <div data-options="region:'south',border:false" style="height: 26px; background: #E0ECFF;
         padding: 4px; text-align: center;">
         <span class='copyright'>Copyright © 1998-<%= DateTime.Now.Year %>
-            Tencent Inc. All Rights Reserved</span>
+            By PsTiu</span>
     </div>
     <script type="text/javascript">
         var Main = {
@@ -57,6 +57,7 @@
 
         $(function () {
             Main.InitNavigate();
-        });    </script>
+        });
+    </script>
 </body>
 </html>

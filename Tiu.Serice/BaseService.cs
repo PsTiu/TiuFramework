@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Tiu.Service
+namespace Tiu.MvcApplication
 {
     /// <summary>
     /// 业务操作结果枚举
@@ -23,6 +23,7 @@ namespace Tiu.Service
         /// </summary>
         Error = 3
     }
+
 
     /// <summary>
     /// 业务逻辑操作结果
@@ -44,36 +45,6 @@ namespace Tiu.Service
     /// </summary>
     public class BaseService
     {
-        /// <summary>
-        /// 数据库访问对象
-        /// </summary>
-        protected DAO.Oapr _oaprDao = new DAO.Oapr();
 
-        /// <summary>
-        /// 写异常日志
-        /// </summary>
-        /// <param name="ex">异常</param>
-        protected void WriteException(Exception ex)
-        { 
-        
-        }
-
-        /// <summary>
-        /// 写异常日志
-        /// </summary>
-        /// <param name="ex">异常信息</param>
-        protected void WriteException(string ex)
-        { 
-            
-        }
-
-        /// <summary>
-        /// 写操作日志
-        /// </summary>
-        /// <param name="desc">操作内容描述</param>
-        protected void WriteOperLog(string desc)
-        { 
-        
-        }
     }
 }

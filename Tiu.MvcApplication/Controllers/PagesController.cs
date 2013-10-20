@@ -7,9 +7,8 @@ using System.Text;
 
 namespace Tiu.MvcApplication.Controllers
 {
-    public class PagesController : Controller
+    public class PagesController : BasicController
     {
-        
         /// <summary>
         /// 显示主框架页
         /// </summary>
@@ -17,11 +16,11 @@ namespace Tiu.MvcApplication.Controllers
         public ActionResult Index()
         {
             // 初始化登录用户（测试用）
-            var curLoginInfo = Service.LoginInfo.GetCurLoginInfo();
-            curLoginInfo.UserId = "shitaopeng";
-            curLoginInfo.UsreFullName = "shitaopeng(彭士涛)";
+            var curLoginInfo = new Model.LoginUserInfo();
+            curLoginInfo.UserId = "PsTiu";
+            curLoginInfo.UserFullName = "PsTiu(彭仕涛)";
 
-            ViewData["SiteInfos"] = System.Configuration.ConfigurationManager.GetSection("SiteInfos");
+            ViewData["SiteInfos"] = Tiu.Common.ConfigSections.SectionHelper.SiteInfos;
 
             return View();
         }
